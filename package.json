@@ -1,0 +1,37 @@
+{
+  "name": "react-native-skeleton-loading",
+  "version": "1.0.0",
+  "description": "Smooth Skeleton Loader For expo and react-native. It is built on the top of react-native-reanimated v3, making it ectremely smooth and flawless.",
+  "main": "index.tsx",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmusaib/react-native-skeleton-loading.git"
+  },
+  "dependencies": {
+    "react-native-reanimated": "~3.3.0",
+    "expo-linear-gradient": "~12.3.0",
+    "@react-native-masked-view/masked-view": "0.2.9"
+  },
+  "keywords": [
+    "skeleton",
+    "expo",
+    "react-native",
+    "skeleton-loader",
+    "expo-skeleton-loader",
+    "react-native-skeleton-loader",
+    "skeleton-loading",
+    "loading",
+    "react-native-skeleton-loading",
+    "expo-skeleton-loading"
+  ],
+  "author": "Muhammad Musaib",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmusaib/react-native-skeleton-loading/issues"
+  },
+  "homepage": "https://github.com/mmusaib/react-native-skeleton-loading#readme"
+}
