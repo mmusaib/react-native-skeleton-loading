@@ -11,7 +11,7 @@
 🟢 Skeleton Loading Component for Expo and React Native powered apps 
 
 <a href="https://twitter.com/_mmusaib" target="_blank"></a>
-<img src="https://i.imgur.com/sLjgFRR.gif" width="400" />
+<img src="https://i.imgur.com/toxEFWe.png" width="500" />
 </div>
 
 
@@ -48,6 +48,23 @@ OR
 ```sh
 $ yarn add react-native-skeleton-loading
 ```
+
+# Setup
+This package is based on react-natve-reanimated 3 so according to their documentation, 
+you need to initialize that in babel.config.js. To do that stop the metro bundler and
+then add following line of code to the return object of babel.config.js
+
+```js
+plugins: ['react-native-reanimated/plugin']
+```
+
+After adding the line of code, start the bundler or project with --clear tag like,
+
+```sh
+npx expo start --clear
+```
+This will clear the bundler cache and you are ready to go.
+
 
 
 # 😎 Displaying the skeleton loading
