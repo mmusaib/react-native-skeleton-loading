@@ -7,12 +7,12 @@ import Reanimated,{ useSharedValue, withRepeat, useAnimatedStyle, withTiming, in
 
 interface SkeletonProps {
     /**
-     * background of the loader componenet
+     * background of the loader componenet hexcode
      */
     background: string,
 
     /**
-     * highlight color of the loader component
+     * highlight color of the loader component hexcode
      */
     highlight: string
 }
@@ -23,7 +23,7 @@ const SkeletonLoading: React.FC<SkeletonProps> = ({
         background, 
         highlight 
 }) => {
-    
+
     const [layout, setLayout] = React.useState();
     const shared = useSharedValue(0);
 
@@ -80,11 +80,13 @@ const SkeletonLoading: React.FC<SkeletonProps> = ({
     )
 } 
 
+
+export default SkeletonLoading;
+
+
 const styles = StyleSheet.create({
     container: {
         flexGrow: 1,
         overflow: 'hidden'
     }
 })
-
-export default SkeletonLoading;
