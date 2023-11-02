@@ -107,6 +107,12 @@ For Live `Demo` [(Expo Snack)](https://snack.expo.dev/@mmusaib/react-native-skel
 
 
 
+# 💲 Would you like to support me?
+
+If you would like me come up with similar packages, buy me a cup of coffee to boost my energy.
+<br><br>
+[![Paypal](https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png)](https://paypal.me/mmusaib)
+<br><br>
 
 
 
