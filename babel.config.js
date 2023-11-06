@@ -1,5 +1,8 @@
 module.exports = function(api) {
-    api.cache(true);
+    if(api) {
+        api.cache(false);
+    }
+    
     return {
       plugins: ['react-native-reanimated/plugin'],
     };
