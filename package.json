@@ -1,6 +1,6 @@
 {
   "name": "react-native-skeleton-loading",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Smooth Skeleton Loader For expo and react-native. It is built on the top of react-native-reanimated v3, making it ectremely smooth and flawless.",
   "main": "index.tsx",
   "types": "index.d.ts",
