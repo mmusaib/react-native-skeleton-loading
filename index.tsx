@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 import MaskedView from "@react-native-masked-view/masked-view";
-import { LinearGradient } from "expo-linear-gradient";
+import { LinearGradient } from "react-native-linear-gradient";
 import Reanimated,{ useSharedValue, withRepeat, useAnimatedStyle, withTiming, interpolate  } from "react-native-reanimated";
 
 
