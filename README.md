@@ -8,7 +8,7 @@
 
 <div align="center">
 
-🟢 Skeleton Loading Component for Expo and React Native powered apps 
+🟢 Skeleton Loading Component for React Native powered apps 
 
 <a href="https://twitter.com/_mmusaib" target="_blank"></a>
 <img src="https://i.imgur.com/toxEFWe.png" width="500" />
@@ -29,10 +29,13 @@
 # Compatibility
 
 
-|  iOS  | Android | Expo |
+|  iOS  | Android | React Native Cli |
 --------|---------|------|
 |  ✅  |    ✅    |  ✅  |
 
+
+# Expo Equivalent
+For Expo Loader [(Click Here)](https://github.com/mmusaib/expo-skeleton-loading)
 
 
 
