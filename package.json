@@ -12,9 +12,9 @@
     "url": "git+https://github.com/mmusaib/react-native-skeleton-loading.git"
   },
   "dependencies": {
-    "@react-native-masked-view/masked-view": "0.3.1",
+    "@react-native-masked-view/masked-view": "0.3.2",
     "react-native-linear-gradient": "^2.8.3",
-    "react-native-reanimated": "~3.14.0"
+    "react-native-reanimated": "~3.16.1"
   },
   "keywords": [
     "skeleton",
