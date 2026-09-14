@@ -1,4 +1,4 @@
-import React from "react";
+import React, {ReactNode} from "react";
 import { View, StyleSheet } from "react-native";
 import MaskedView from "@react-native-masked-view/masked-view";
 import { LinearGradient } from "react-native-linear-gradient";
@@ -15,6 +15,11 @@ interface SkeletonProps {
      * highlight color of the loader component hexcode
      */
     highlight: string
+
+    /**
+     * the children components inside SkeletonLoading
+     */
+    children: ReactNode
 }
 
 

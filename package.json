@@ -13,8 +13,18 @@
   },
   "dependencies": {
     "@react-native-masked-view/masked-view": "0.3.2",
-    "react-native-linear-gradient": "^2.8.3",
-    "react-native-reanimated": "~4.5.3"
+    "react-native-linear-gradient": "^2.8.3"
+  },
+  "devDependencies": {
+    "react-native-reanimated": "^4.0.0"
+  },
+  "peerDependencies": {
+    "react-native-reanimated": ">=4.0.0 < 5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react-native-reanimated": {
+      "optional": false
+    }
   },
   "keywords": [
     "skeleton",
